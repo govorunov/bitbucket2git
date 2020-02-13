@@ -1,5 +1,7 @@
 # Batch migrating Mercurial (Hg) Bitbucket repositories to Git
 
+## WARNING!!!: Dont forget to `git clone --recursive <project url>` this repository as it includes *fast-transform* submodule that is required for scripts to work.
+
 Since Bitbucket announced [end of Mercurial support](https://bitbucket.org/blog/sunsetting-mercurial-support-in-bitbucket) here is the instruction and scripts to help migrating multiple repositories from Bitbucket Mercurial (Hg) to Git. 
 
 **Prerequisites**: Bash, Python 2.
